@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>GIFTR</title>
+	<link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+	<div class="wrapper">
+		<!-- container for all pages -->
+		
+		<section data-role="page" id="people-list" class="">
+			<h2><img class="svg" src="img/ppl.svg" height="75" width="75"></img>People <img id="addPpl" class="btnAdd" src="img/add.svg" height="50" width="50"></img></h2>
+            <div id="output"></div>
+			<ul id="pplList" data-role="listview">
+				<!-- 
+				list of items to be dynamically added 
+				single-tap to add gift for person through gifts-for-person page
+				double-tap to remove person
+				-->
+			</ul>
+		</section>
+		
+		<section data-role="page" id="occasion-list">
+			<h2><img class="svg" src="img/occ.svg" height="75" width="75"></img>Occasions <img id="addOcc" class="btnAdd" src="img/add.svg" height="50" width="50"></img></h2>
+			<ul id ="occList" data-role="listview">
+				<!-- 
+				list of items to be dynamically added 
+				single-tap to add gift for occasion through gifts-for-occasion page
+				double-tap to remove occasion
+				-->
+			</ul>
+		</section>
+		
+		<section data-role="page" id="gifts-for-person">
+			<h2><img class="svg" src="img/gift.svg" height="75" width="75"></img>Gift Ideas For <span id="perSpan"></span><img id="addGP" class="btnAdd" src="img/add.svg" height="50" width="50"></img></h2>
+			
+			<ul id="giftListP" data-role="listview">
+				<!-- 
+				list of items to be dynamically added 
+				single-tap gift idea to toggle purchased state for gift
+ 				double-tap gift idea to remove from list
+				-->
+			</ul>
+            <button class="done">Done</button>
+		</section>
+		
+		<section data-role="page" id="gifts-for-occasion">
+			<h2><img class="svg" src="img/gift.svg" height="75" width="75"></img>Gift Ideas For <span id="occSpan"></span><img id="addGO" class="btnAdd" src="img/add.svg" height="50" width="50"></img></h2>
+			<ul id="giftListO" data-role="listview">
+				<!-- 
+				list of items to be dynamically added 
+				single-tap gift idea to toggle purchased state for gift
+				double-tap gift idea to remove from list
+				-->
+			</ul>
+            <button class="done">Done</button>
+		</section>
+	</div>
+	
+	<!-- always display the overlay between a page and modal -->
+	<div data-role="overlay">&nbsp;</div>
+	
+	<!-- modal for adding an entry to person or occasion table -->
+	<div data-role="modal" id="add-person-occasion">
+		<h3 id="mainTitle"></h3>
+		<form>
+			<div class="formBox">
+				<input type="text" id="new-per-occ" value="" placeholder="" class=""/>
+			</div>
+			<div class="formBox">
+				<input type="button" class="btnCancel" value="CANCEL" />
+				<input type="button" class="btnSave" value="SAVE" />
+			</div>
+		</form>	
+	</div>
+	
+	<!-- modal for adding an entry to gift idea table. Requires a person or occasion plus the idea -->
+	<div data-role="modal" id="add-gift">
+		<h3 id="giftTitle"></h3>
+		<form>
+			<div class="formBox">
+				<select id="list-per-occ">
+					<option value="0">Choose one</option>
+					<!-- list of options built from person list or occasion list -->
+				</select>
+			</div>
+			<div class="formBox">
+				<input type="text" id="new-idea" value="" placeholder="" class=""/>
+			</div>
+			<div class="formBox">
+				<input type="button" class="btnCancel" value="CANCEL" />
+				<input type="button" class="btnSave" value="SAVE" />
+			</div>
+		</form>	
+	</div>
+    
+    <script src="js/hammer.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
