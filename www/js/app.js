@@ -16,7 +16,7 @@ var liCatch;
 document.addEventListener("DOMContentLoaded", function(){
     loadCount ++;
   
-    if (loadCount === 1){
+    if (loadCount === 2){
         
         start();
     };
@@ -25,7 +25,7 @@ document.addEventListener("deviceready",function(){
     loadCount ++;
     
      
-    if (loadCount === 1){ 
+    if (loadCount === 2){ 
    
         start();
     };
