@@ -114,3 +114,46 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 
 2015-04-09 18:15:32.536 Giftr[1908:78663] Resetting plugins due to page load.
 2015-04-09 18:15:32.564 Giftr[1908:78663] Finished load of: file:///Users/mattyoung/Library/Developer/CoreSimulator/Devices/B4E68F13-E1EF-4191-942E-2F467B17B754/data/Containers/Bundle/Application/DB9E265D-AB5B-466C-9FC1-DD036E94EC16/Giftr.app/www/index.html
+2015-04-09 18:30:32.121 Giftr[2462:88128] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/mattyoung/Library/Developer/CoreSimulator/Devices/B4E68F13-E1EF-4191-942E-2F467B17B754/data/Containers/Data/Application/193640DE-8FAC-4190-8E8C-8C42312BAE73/Library/Cookies/Cookies.binarycookies
+2015-04-09 18:30:32.171 Giftr[2462:88128] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-09 18:30:32.171 Giftr[2462:88128] Multi-tasking -> Device: YES, App: YES
+2015-04-09 18:30:32.173 Giftr[2462:88128] Unlimited access to network resources
+2015-04-09 18:30:32.175 Giftr[2462:88128] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-09 18:30:32.295 Giftr[2462:88128] Resetting plugins due to page load.
+2015-04-09 18:30:32.340 Giftr[2462:88128] Finished load of: file:///Users/mattyoung/Library/Developer/CoreSimulator/Devices/B4E68F13-E1EF-4191-942E-2F467B17B754/data/Containers/Bundle/Application/B8125203-B58C-49E8-AE21-AF076C094175/Giftr.app/www/index.html
+2015-04-09 18:32:55.063 Giftr[2715:89898] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/mattyoung/Library/Developer/CoreSimulator/Devices/B4E68F13-E1EF-4191-942E-2F467B17B754/data/Containers/Data/Application/72FCBA42-2B54-47CA-B91D-881630A9DE62/Library/Cookies/Cookies.binarycookies
+2015-04-09 18:32:55.108 Giftr[2715:89898] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-09 18:32:55.108 Giftr[2715:89898] Multi-tasking -> Device: YES, App: YES
+2015-04-09 18:32:55.109 Giftr[2715:89898] Unlimited access to network resources
+2015-04-09 18:32:55.111 Giftr[2715:89898] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-09 18:32:55.217 Giftr[2715:89898] Resetting plugins due to page load.
+2015-04-09 18:32:55.249 Giftr[2715:89898] Finished load of: file:///Users/mattyoung/Library/Developer/CoreSimulator/Devices/B4E68F13-E1EF-4191-942E-2F467B17B754/data/Containers/Bundle/Application/62355028-F3E2-4CF2-9D96-F2A6F843CB38/Giftr.app/www/index.html
+2015-04-09 18:34:18.661 Giftr[2875:90922] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/mattyoung/Library/Developer/CoreSimulator/Devices/B4E68F13-E1EF-4191-942E-2F467B17B754/data/Containers/Data/Application/C9AB12CC-106E-4F07-A537-2BAF3215E254/Library/Cookies/Cookies.binarycookies
+2015-04-09 18:34:18.709 Giftr[2875:90922] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-09 18:34:18.709 Giftr[2875:90922] Multi-tasking -> Device: YES, App: YES
+2015-04-09 18:34:18.711 Giftr[2875:90922] Unlimited access to network resources
+2015-04-09 18:34:18.712 Giftr[2875:90922] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-09 18:34:18.806 Giftr[2875:90922] Resetting plugins due to page load.
+2015-04-09 18:34:18.837 Giftr[2875:90922] Finished load of: file:///Users/mattyoung/Library/Developer/CoreSimulator/Devices/B4E68F13-E1EF-4191-942E-2F467B17B754/data/Containers/Bundle/Application/0146CA65-B438-4EA9-8DF5-7284C8F82F07/Giftr.app/www/index.html
+2015-04-09 18:34:28.818 Giftr[2875:91072] Terminating since there is no system app.
